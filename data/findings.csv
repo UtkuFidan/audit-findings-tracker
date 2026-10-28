@@ -1,0 +1,387 @@
+finding_id,audit_id,title,risk_rating,root_cause,owner_function,created_date,original_due_date,due_date,resolved_date,status,revised_due_count,repeat_flag
+F-0001,AUD-001,Retention and filing rules applied inconsistently,Medium,Policy not followed,HR,2023-11-08,2024-04-18,2024-04-18,2024-03-24,Implemented,0,False
+F-0002,AUD-001,Approval workflow does not cover all transaction types,High,Process design gap,HR,2023-11-08,2024-02-01,2024-02-01,2024-01-18,Validated,0,False
+F-0003,AUD-001,No documented procedure for exception handling,Medium,Process design gap,HR,2023-11-08,2024-04-04,2024-04-04,2024-03-07,Validated,0,False
+F-0004,AUD-001,Spreadsheet-based calculations lack independent checks,Medium,Manual control / human error,Sales,2023-11-08,2024-06-21,2024-06-21,2024-06-09,Implemented,0,False
+F-0005,AUD-001,Privileged accounts without timely removal on role change,Medium,System / access control,HR,2023-11-08,2024-05-08,2024-05-08,2024-08-17,Validated,0,False
+F-0006,AUD-001,Key risk indicators are not reported to the owner,Medium,Inadequate oversight,HR,2023-11-08,2024-03-17,2024-03-17,2024-03-10,Implemented,0,False
+F-0007,AUD-001,Spreadsheet-based calculations lack independent checks,Medium,Manual control / human error,HR,2023-11-08,2024-04-25,2024-04-25,2024-04-18,Validated,0,False
+F-0008,AUD-001,No documented procedure for exception handling,High,Process design gap,HR,2023-11-08,2024-03-30,2024-03-30,2024-03-03,Validated,0,False
+F-0009,AUD-001,Mandatory training completion below target,Medium,Training / awareness,HR,2023-11-08,2024-06-06,2024-06-06,2024-05-11,Validated,0,False
+F-0010,AUD-001,Reconciliations contain unreviewed manual adjustments,High,Manual control / human error,HR,2023-11-08,2024-02-04,2024-02-04,2023-12-17,Risk accepted,0,False
+F-0011,AUD-001,Required approvals obtained after the fact,Low,Policy not followed,HR,2023-11-08,2024-05-29,2024-05-29,2024-05-19,Validated,0,False
+F-0012,AUD-001,Source-to-report data lineage is undocumented,Low,Data quality,HR,2023-11-08,2024-08-06,2024-08-06,2024-08-01,Validated,0,False
+F-0013,AUD-002,Required approvals obtained after the fact,Low,Policy not followed,Finance,2023-11-19,2024-10-10,2024-10-10,2024-09-06,Implemented,0,False
+F-0014,AUD-002,Reconciliations contain unreviewed manual adjustments,Low,Manual control / human error,Finance,2023-11-19,2024-08-31,2024-08-31,2024-07-26,Implemented,0,False
+F-0015,AUD-002,Key risk indicators are not reported to the owner,High,Inadequate oversight,Finance,2023-11-19,2024-02-05,2024-02-05,2024-01-29,Validated,0,False
+F-0016,AUD-002,Privileged accounts without timely removal on role change,Low,System / access control,Finance,2023-11-19,2024-07-19,2024-07-19,2024-06-27,Validated,0,False
+F-0017,AUD-002,Retention and filing rules applied inconsistently,Medium,Policy not followed,Finance,2023-11-19,2024-03-29,2024-03-29,2024-03-19,Implemented,0,False
+F-0018,AUD-002,Handover between teams leaves a control gap,Medium,Process design gap,Finance,2023-11-19,2024-06-17,2024-06-17,2024-06-14,Implemented,0,False
+F-0019,AUD-002,Segregation of duties conflicts not monitored,Medium,Inadequate oversight,Finance,2023-11-19,2024-04-14,2024-04-14,2024-04-01,Validated,0,False
+F-0020,AUD-002,Master data contains duplicates and stale records,Critical,Data quality,Finance,2023-11-19,2024-02-05,2024-02-05,2024-02-03,Validated,0,False
+F-0021,AUD-002,Privileged accounts without timely removal on role change,Medium,System / access control,Finance,2023-11-19,2024-05-13,2024-05-13,2024-06-05,Implemented,0,False
+F-0022,AUD-002,Required approvals obtained after the fact,Medium,Policy not followed,IT,2023-11-19,2024-06-28,2024-06-28,2026-04-01,Validated,0,False
+F-0023,AUD-002,Management review evidence is missing or undated,Medium,Inadequate oversight,Finance,2023-11-19,2024-03-22,2024-03-22,2024-03-03,Validated,0,False
+F-0024,AUD-002,Segregation of duties conflicts not monitored,Low,Inadequate oversight,Finance,2023-11-19,2024-08-24,2024-08-24,2024-08-09,Implemented,0,False
+F-0025,AUD-002,Policy exceptions granted without documented rationale,High,Policy not followed,Finance,2023-11-19,2024-04-13,2024-04-13,2024-03-31,Validated,0,False
+F-0026,AUD-002,Management review evidence is missing or undated,Medium,Inadequate oversight,Finance,2023-11-19,2024-05-24,2024-05-24,2024-06-28,Implemented,0,False
+F-0027,AUD-002,Handover between teams leaves a control gap,Low,Process design gap,Finance,2023-11-19,2024-06-13,2024-06-13,2024-05-23,Validated,0,False
+F-0028,AUD-003,Policy exceptions granted without documented rationale,Critical,Policy not followed,IT,2023-11-29,2024-02-27,2024-02-27,2024-02-22,Implemented,0,False
+F-0029,AUD-003,Reconciliations contain unreviewed manual adjustments,Low,Manual control / human error,IT,2023-11-29,2024-05-18,2024-05-18,2024-04-22,Implemented,0,False
+F-0030,AUD-003,Retention and filing rules applied inconsistently,Medium,Policy not followed,Operations,2023-11-29,2024-07-22,2024-07-22,2024-07-20,Implemented,0,False
+F-0031,AUD-003,No documented procedure for exception handling,Critical,Process design gap,IT,2023-11-29,2024-01-18,2024-04-27,2024-04-10,Validated,1,False
+F-0032,AUD-003,Approval workflow does not cover all transaction types,High,Process design gap,IT,2023-11-29,2024-03-06,2024-03-06,2024-03-01,Validated,0,False
+F-0033,AUD-003,Privileged accounts without timely removal on role change,High,System / access control,IT,2023-11-29,2024-02-16,2024-02-16,2024-03-21,Risk accepted,0,False
+F-0034,AUD-003,Management review evidence is missing or undated,Low,Inadequate oversight,IT,2023-11-29,2024-08-19,2024-08-19,2025-03-07,Validated,0,False
+F-0035,AUD-003,Supplier performance not assessed against contract terms,High,Third-party management,Sales,2023-11-29,2024-04-03,2024-04-03,2026-05-22,Validated,0,False
+F-0036,AUD-004,Spreadsheet-based calculations lack independent checks,High,Manual control / human error,Compliance,2023-11-30,2024-02-18,2024-02-18,2024-02-11,Implemented,0,False
+F-0037,AUD-004,Source-to-report data lineage is undocumented,High,Data quality,Sales,2023-11-30,2024-03-11,2024-03-11,2024-03-04,Validated,0,False
+F-0038,AUD-004,No documented procedure for exception handling,Medium,Process design gap,Compliance,2023-11-30,2024-04-10,2024-04-10,2024-03-31,Validated,0,False
+F-0039,AUD-004,Staff unaware of updated procedures,Low,Training / awareness,Compliance,2023-11-30,2024-10-13,2024-10-13,2024-09-06,Validated,0,False
+F-0040,AUD-004,Handover between teams leaves a control gap,Medium,Process design gap,Compliance,2023-11-30,2024-07-06,2024-07-06,2024-06-30,Validated,0,False
+F-0041,AUD-004,Retention and filing rules applied inconsistently,Low,Policy not followed,Finance,2023-11-30,2024-10-19,2024-10-19,2024-10-14,Validated,0,False
+F-0042,AUD-004,Retention and filing rules applied inconsistently,Low,Policy not followed,Compliance,2023-11-30,2024-05-02,2024-05-02,2024-04-17,Implemented,0,False
+F-0043,AUD-004,Retention and filing rules applied inconsistently,Medium,Policy not followed,Compliance,2023-11-30,2024-04-04,2024-04-04,2024-03-15,Implemented,0,False
+F-0044,AUD-004,Source-to-report data lineage is undocumented,Medium,Data quality,Compliance,2023-11-30,2024-06-24,2024-06-24,2024-07-17,Validated,0,False
+F-0045,AUD-004,Data entry errors not detected before posting,Medium,Manual control / human error,Compliance,2023-11-30,2024-04-22,2024-04-22,2023-12-27,Risk accepted,0,False
+F-0046,AUD-004,Approval workflow does not cover all transaction types,Low,Process design gap,Compliance,2023-11-30,2024-10-17,2024-10-17,2024-09-29,Implemented,0,False
+F-0047,AUD-004,No documented procedure for exception handling,Medium,Process design gap,HR,2023-11-30,2024-03-23,2024-03-23,2024-03-12,Validated,0,False
+F-0048,AUD-004,Handover between teams leaves a control gap,High,Process design gap,HR,2023-11-30,2024-04-20,2024-04-20,2024-04-03,Implemented,0,False
+F-0049,AUD-004,Due diligence refresh overdue for key suppliers,High,Third-party management,Compliance,2023-11-30,2024-04-03,2024-04-03,2023-12-20,Risk accepted,0,False
+F-0050,AUD-004,Privileged accounts without timely removal on role change,Medium,System / access control,Legal,2023-11-30,2024-06-15,2024-06-15,2024-06-02,Implemented,0,False
+F-0051,AUD-005,Spreadsheet-based calculations lack independent checks,Low,Manual control / human error,Operations,2023-12-11,2024-05-25,2024-05-25,2024-09-27,Validated,0,False
+F-0052,AUD-005,No documented procedure for exception handling,Medium,Process design gap,Operations,2023-12-11,2024-07-19,2024-07-19,2024-07-03,Implemented,0,False
+F-0053,AUD-005,Master data contains duplicates and stale records,Low,Data quality,Operations,2023-12-11,2024-05-29,2024-09-06,2024-07-18,Validated,1,False
+F-0054,AUD-005,Policy exceptions granted without documented rationale,Medium,Policy not followed,Operations,2023-12-11,2024-05-30,2024-05-30,2024-05-17,Validated,0,False
+F-0055,AUD-005,Management review evidence is missing or undated,Low,Inadequate oversight,Operations,2023-12-11,2024-09-01,2024-11-13,2024-10-21,Validated,1,False
+F-0056,AUD-005,Privileged accounts without timely removal on role change,Low,System / access control,Operations,2023-12-11,2024-08-15,2024-08-15,2024-07-28,Validated,0,False
+F-0057,AUD-005,System changes moved to production without testing evidence,Medium,System / access control,Operations,2023-12-11,2024-05-24,2024-10-07,2024-10-05,Validated,2,False
+F-0058,AUD-005,Reconciliations contain unreviewed manual adjustments,Low,Manual control / human error,Legal,2023-12-11,2024-07-05,2024-07-05,2024-06-07,Validated,0,False
+F-0059,AUD-005,Reconciliations contain unreviewed manual adjustments,Low,Manual control / human error,Operations,2023-12-11,2024-10-21,2025-06-06,2025-05-07,Validated,3,False
+F-0060,AUD-005,Required approvals obtained after the fact,Low,Policy not followed,Operations,2023-12-11,2024-09-07,2024-09-07,2024-09-06,Validated,0,False
+F-0061,AUD-006,Required approvals obtained after the fact,Low,Policy not followed,Procurement,2023-12-14,2024-07-16,2024-07-16,2026-02-09,Validated,0,False
+F-0062,AUD-006,Staff unaware of updated procedures,High,Training / awareness,Procurement,2023-12-14,2024-03-24,2024-03-24,2024-03-09,Validated,0,False
+F-0063,AUD-006,Handover between teams leaves a control gap,Low,Process design gap,Procurement,2023-12-14,2024-09-15,2024-12-08,2024-11-22,Validated,2,False
+F-0064,AUD-006,Master data contains duplicates and stale records,Medium,Data quality,Sales,2023-12-14,2024-06-25,2024-06-25,2026-07-05,Validated,0,False
+F-0065,AUD-006,No documented procedure for exception handling,High,Process design gap,Procurement,2023-12-14,2024-03-13,2024-07-11,2024-07-04,Validated,1,False
+F-0066,AUD-006,Required approvals obtained after the fact,Medium,Policy not followed,Procurement,2023-12-14,2024-07-14,2024-07-14,2024-07-12,Validated,0,False
+F-0067,AUD-006,Spreadsheet-based calculations lack independent checks,Medium,Manual control / human error,Procurement,2023-12-14,2024-04-13,2024-04-13,2026-05-22,Implemented,0,False
+F-0068,AUD-007,Privileged accounts without timely removal on role change,Medium,System / access control,Operations,2023-12-28,2024-08-04,2024-08-04,2024-07-14,Implemented,0,False
+F-0069,AUD-007,Spreadsheet-based calculations lack independent checks,Medium,Manual control / human error,Operations,2023-12-28,2024-08-11,2024-09-18,2024-08-28,Implemented,1,False
+F-0070,AUD-007,Approval workflow does not cover all transaction types,High,Process design gap,Procurement,2023-12-28,2024-05-04,2024-05-04,2026-01-29,Implemented,0,False
+F-0071,AUD-007,Mandatory training completion below target,High,Training / awareness,Operations,2023-12-28,2024-04-16,2024-04-16,2024-03-31,Validated,0,False
+F-0072,AUD-007,Supplier performance not assessed against contract terms,High,Third-party management,Operations,2023-12-28,2024-04-22,2024-04-22,2024-04-17,Validated,0,False
+F-0073,AUD-007,Approval workflow does not cover all transaction types,Medium,Process design gap,Operations,2023-12-28,2024-08-15,2024-08-15,2024-07-26,Implemented,0,False
+F-0074,AUD-007,Retention and filing rules applied inconsistently,High,Policy not followed,Operations,2023-12-28,2024-04-05,2024-04-05,2024-03-19,Validated,0,False
+F-0075,AUD-007,Handover between teams leaves a control gap,Low,Process design gap,Operations,2023-12-28,2024-10-31,2024-10-31,2024-10-11,Implemented,0,False
+F-0076,AUD-007,Supplier performance not assessed against contract terms,Medium,Third-party management,Operations,2023-12-28,2024-07-08,2024-07-08,2024-06-15,Validated,0,False
+F-0077,AUD-007,Key risk indicators are not reported to the owner,Medium,Inadequate oversight,Operations,2023-12-28,2024-05-25,2024-05-25,2024-05-21,Implemented,0,False
+F-0078,AUD-007,Handover between teams leaves a control gap,Medium,Process design gap,Operations,2023-12-28,2024-07-16,2024-07-16,2024-06-16,Validated,0,False
+F-0079,AUD-007,Approval workflow does not cover all transaction types,High,Process design gap,Operations,2023-12-28,2024-05-05,2024-05-05,2024-04-21,Implemented,0,False
+F-0080,AUD-007,No documented procedure for exception handling,High,Process design gap,Operations,2023-12-28,2024-03-23,2024-09-23,2025-09-19,Validated,3,False
+F-0081,AUD-007,System changes moved to production without testing evidence,High,System / access control,Operations,2023-12-28,2024-04-01,2024-06-25,2024-06-05,Implemented,2,False
+F-0082,AUD-008,Spreadsheet-based calculations lack independent checks,Medium,Manual control / human error,Finance,2024-01-01,2024-08-14,2024-08-14,2024-08-01,Validated,0,False
+F-0083,AUD-008,Key risk indicators are not reported to the owner,Medium,Inadequate oversight,Sales,2024-01-01,2024-06-04,2024-06-04,2024-04-09,Risk accepted,0,False
+F-0084,AUD-008,Privileged accounts without timely removal on role change,High,System / access control,Legal,2024-01-01,2024-04-07,2024-04-07,2024-04-06,Validated,0,False
+F-0085,AUD-008,Handover between teams leaves a control gap,Critical,Process design gap,Finance,2024-01-01,2024-03-06,2024-03-06,2024-02-29,Implemented,0,False
+F-0086,AUD-008,Approval workflow does not cover all transaction types,Low,Process design gap,Sales,2024-01-01,2024-11-03,2024-11-03,2025-01-18,Implemented,0,False
+F-0087,AUD-008,Policy exceptions granted without documented rationale,Low,Policy not followed,Procurement,2024-01-01,2024-07-09,2024-07-09,2026-04-27,Validated,0,False
+F-0088,AUD-008,Reconciliations contain unreviewed manual adjustments,High,Manual control / human error,Sales,2024-01-01,2024-04-08,2024-04-08,2024-04-03,Validated,0,False
+F-0089,AUD-009,Mandatory training completion below target,Critical,Training / awareness,Legal,2024-01-05,2024-03-25,2024-03-25,2024-03-14,Implemented,0,False
+F-0090,AUD-009,Privileged accounts without timely removal on role change,Medium,System / access control,Legal,2024-01-05,2024-07-29,2024-07-29,2024-07-15,Validated,0,False
+F-0091,AUD-009,Data entry errors not detected before posting,Low,Manual control / human error,Legal,2024-01-05,2024-08-06,2024-08-06,2024-12-27,Validated,0,False
+F-0092,AUD-009,Reconciliations contain unreviewed manual adjustments,Medium,Manual control / human error,Legal,2024-01-05,2024-05-27,2024-05-27,2024-05-26,Validated,0,False
+F-0093,AUD-009,Policy exceptions granted without documented rationale,Medium,Policy not followed,Legal,2024-01-05,2024-07-10,2024-07-10,2024-06-17,Validated,0,False
+F-0094,AUD-009,Management review evidence is missing or undated,Medium,Inadequate oversight,HR,2024-01-05,2024-05-31,2024-11-07,2024-08-14,Validated,2,False
+F-0095,AUD-009,Approval workflow does not cover all transaction types,High,Process design gap,Legal,2024-01-05,2024-04-19,2024-08-09,2024-05-05,Validated,1,False
+F-0096,AUD-009,Handover between teams leaves a control gap,Medium,Process design gap,Legal,2024-01-05,2024-08-24,2024-08-24,2024-07-16,Implemented,0,False
+F-0097,AUD-010,Reconciliations contain unreviewed manual adjustments,High,Manual control / human error,HR,2024-03-03,2024-06-01,2024-06-01,2024-05-20,Validated,0,False
+F-0098,AUD-010,System changes moved to production without testing evidence,Medium,System / access control,HR,2024-03-03,2024-08-27,2024-10-26,2024-11-08,Implemented,1,False
+F-0099,AUD-010,Reconciliations contain unreviewed manual adjustments,Low,Manual control / human error,HR,2024-03-03,2024-11-05,2024-11-05,2024-10-02,Implemented,0,False
+F-0100,AUD-010,Segregation of duties conflicts not monitored,Low,Inadequate oversight,HR,2024-03-03,2024-09-28,2024-09-28,2024-09-20,Implemented,0,False
+F-0101,AUD-010,Approval workflow does not cover all transaction types,Critical,Process design gap,HR,2024-03-03,2024-05-09,2024-05-09,2026-06-02,Validated,0,False
+F-0102,AUD-010,Periodic user access reviews not performed on schedule,Low,System / access control,HR,2024-03-03,2024-12-14,2024-12-14,2024-10-26,Validated,0,False
+F-0103,AUD-010,Master data contains duplicates and stale records,Critical,Data quality,HR,2024-03-03,2024-06-08,2024-06-08,2025-09-01,Validated,0,False
+F-0104,AUD-010,Spreadsheet-based calculations lack independent checks,Critical,Manual control / human error,HR,2024-03-03,2024-04-20,2024-04-20,2024-04-17,Validated,0,False
+F-0105,AUD-010,Handover between teams leaves a control gap,Low,Process design gap,Finance,2024-03-03,2024-08-25,2024-08-25,2024-08-07,Implemented,0,False
+F-0106,AUD-011,Reconciliations contain unreviewed manual adjustments,Critical,Manual control / human error,IT,2024-05-07,2024-06-21,2024-06-21,2024-06-21,Validated,0,False
+F-0107,AUD-011,Approval workflow does not cover all transaction types,Medium,Process design gap,Operations,2024-05-07,2024-10-23,2024-10-23,2024-10-02,Implemented,0,False
+F-0108,AUD-011,Policy exceptions granted without documented rationale,Low,Policy not followed,IT,2024-05-07,2024-10-28,2024-10-28,2025-02-26,Validated,0,False
+F-0109,AUD-011,Handover between teams leaves a control gap,Medium,Process design gap,IT,2024-05-07,2024-10-23,2024-10-23,2024-10-03,Validated,0,False
+F-0110,AUD-011,Segregation of duties conflicts not monitored,Low,Inadequate oversight,IT,2024-05-07,2024-12-25,2024-12-25,2026-09-22,Implemented,0,False
+F-0111,AUD-011,Staff unaware of updated procedures,Medium,Training / awareness,IT,2024-05-07,2024-10-03,2024-10-03,2026-04-23,Validated,0,False
+F-0112,AUD-011,Approval workflow does not cover all transaction types,High,Process design gap,IT,2024-05-07,2024-08-28,2024-12-22,,Overdue,2,False
+F-0113,AUD-011,Data entry errors not detected before posting,Critical,Manual control / human error,IT,2024-05-07,2024-07-16,2024-07-16,2024-07-13,Validated,0,False
+F-0114,AUD-011,Data entry errors not detected before posting,Medium,Manual control / human error,IT,2024-05-07,2024-10-22,2024-12-22,,Overdue,1,False
+F-0115,AUD-011,Policy exceptions granted without documented rationale,Medium,Policy not followed,IT,2024-05-07,2024-10-10,2024-10-10,2024-10-10,Validated,0,False
+F-0116,AUD-011,Periodic user access reviews not performed on schedule,High,System / access control,IT,2024-05-07,2024-09-25,2024-12-11,2024-12-03,Implemented,1,False
+F-0117,AUD-012,System changes moved to production without testing evidence,Low,System / access control,Sales,2024-06-03,2025-01-30,2025-01-30,2025-01-12,Validated,0,False
+F-0118,AUD-012,No documented procedure for exception handling,Medium,Process design gap,Sales,2024-06-03,2025-01-01,2025-01-01,2024-12-23,Validated,0,False
+F-0119,AUD-012,System changes moved to production without testing evidence,Low,System / access control,Sales,2024-06-03,2024-12-19,2024-12-19,2024-12-11,Validated,0,False
+F-0120,AUD-012,Data entry errors not detected before posting,Medium,Manual control / human error,Compliance,2024-06-03,2024-10-23,2024-10-23,2024-10-01,Implemented,0,False
+F-0121,AUD-012,Privileged accounts without timely removal on role change,Low,System / access control,Sales,2024-06-03,2024-10-31,2024-10-31,2025-01-16,Implemented,0,False
+F-0122,AUD-012,Management review evidence is missing or undated,Medium,Inadequate oversight,Sales,2024-06-03,2024-12-13,2024-12-13,2024-11-11,Validated,0,False
+F-0123,AUD-012,Approval workflow does not cover all transaction types,High,Process design gap,Operations,2024-06-03,2024-09-15,2024-09-15,2024-08-30,Implemented,0,False
+F-0124,AUD-012,Required approvals obtained after the fact,Low,Policy not followed,Sales,2024-06-03,2025-04-20,2025-04-20,2025-03-11,Validated,0,False
+F-0125,AUD-012,Staff unaware of updated procedures,High,Training / awareness,Sales,2024-06-03,2024-10-27,2024-10-27,2024-10-03,Validated,0,False
+F-0126,AUD-012,Periodic user access reviews not performed on schedule,Low,System / access control,Sales,2024-06-03,2025-03-07,2025-03-07,2025-01-26,Validated,0,False
+F-0127,AUD-012,Mandatory training completion below target,Medium,Training / awareness,Sales,2024-06-03,2025-01-08,2025-02-12,2025-02-09,Validated,1,False
+F-0128,AUD-012,Handover between teams leaves a control gap,Low,Process design gap,Sales,2024-06-03,2025-02-14,2025-02-14,2025-01-01,Validated,0,False
+F-0129,AUD-012,Spreadsheet-based calculations lack independent checks,Low,Manual control / human error,Sales,2024-06-03,2025-01-26,2025-01-26,2024-12-18,Implemented,0,False
+F-0130,AUD-013,Management review evidence is missing or undated,High,Inadequate oversight,Finance,2024-08-27,2025-02-01,2025-02-01,2025-01-26,Validated,0,False
+F-0131,AUD-013,Handover between teams leaves a control gap,Low,Process design gap,Finance,2024-08-27,2025-06-14,2025-06-14,2025-06-12,Validated,0,False
+F-0132,AUD-013,Retention and filing rules applied inconsistently,Low,Policy not followed,Finance,2024-08-27,2025-02-08,2025-02-08,2025-03-27,Validated,0,False
+F-0133,AUD-013,Handover between teams leaves a control gap,Medium,Process design gap,Finance,2024-08-27,2025-01-30,2025-01-30,2025-01-27,Implemented,0,False
+F-0134,AUD-013,Privileged accounts without timely removal on role change,Medium,System / access control,Finance,2024-08-27,2025-01-31,2025-01-31,2025-01-18,Validated,0,False
+F-0135,AUD-013,System changes moved to production without testing evidence,High,System / access control,Finance,2024-08-27,2024-12-31,2024-12-31,2024-12-22,Implemented,0,False
+F-0136,AUD-013,Management review evidence is missing or undated,High,Inadequate oversight,Finance,2024-08-27,2025-01-29,2025-01-29,2024-09-16,Risk accepted,0,False
+F-0137,AUD-013,Master data contains duplicates and stale records,Medium,Data quality,Finance,2024-08-27,2025-02-08,2025-02-08,2025-02-08,Implemented,0,False
+F-0138,AUD-013,System changes moved to production without testing evidence,High,System / access control,Finance,2024-08-27,2024-11-28,2024-11-28,2024-11-17,Validated,0,False
+F-0139,AUD-013,Approval workflow does not cover all transaction types,Medium,Process design gap,Finance,2024-08-27,2025-01-04,2025-01-04,2024-12-20,Validated,0,False
+F-0140,AUD-013,Segregation of duties conflicts not monitored,Medium,Inadequate oversight,Finance,2024-08-27,2025-01-26,2025-01-26,2025-01-15,Implemented,0,False
+F-0141,AUD-013,Key risk indicators are not reported to the owner,Low,Inadequate oversight,Finance,2024-08-27,2025-06-18,2025-06-18,2025-05-13,Implemented,0,False
+F-0142,AUD-014,Management review evidence is missing or undated,Medium,Inadequate oversight,Legal,2024-10-09,2025-05-03,2025-05-03,2025-04-02,Validated,0,False
+F-0143,AUD-014,Segregation of duties conflicts not monitored,High,Inadequate oversight,Legal,2024-10-09,2024-12-28,2024-12-28,2024-12-14,Implemented,0,False
+F-0144,AUD-014,Privileged accounts without timely removal on role change,Medium,System / access control,Legal,2024-10-09,2025-04-25,2025-04-25,2025-04-06,Implemented,0,False
+F-0145,AUD-014,Reconciliations contain unreviewed manual adjustments,Low,Manual control / human error,Legal,2024-10-09,2025-08-28,2025-08-28,2025-11-11,Implemented,0,False
+F-0146,AUD-014,Policy exceptions granted without documented rationale,High,Policy not followed,Legal,2024-10-09,2025-02-27,2025-02-27,2025-02-22,Validated,0,False
+F-0147,AUD-014,Policy exceptions granted without documented rationale,Medium,Policy not followed,Operations,2024-10-09,2025-03-06,2025-03-06,2025-04-29,Validated,0,False
+F-0148,AUD-014,Required approvals obtained after the fact,High,Policy not followed,Legal,2024-10-09,2024-12-27,2024-12-27,2025-02-14,Implemented,0,False
+F-0149,AUD-014,Source-to-report data lineage is undocumented,Low,Data quality,Legal,2024-10-09,2025-03-17,2025-03-17,,Overdue,0,False
+F-0150,AUD-014,Required approvals obtained after the fact,Low,Policy not followed,Procurement,2024-10-09,2025-09-04,2025-09-04,2025-07-29,Validated,0,False
+F-0151,AUD-015,Master data contains duplicates and stale records,Low,Data quality,Sales,2024-11-08,2025-05-21,2025-05-21,2024-12-30,Risk accepted,0,False
+F-0152,AUD-015,Supplier performance not assessed against contract terms,Low,Third-party management,Finance,2024-11-08,2025-06-12,2025-06-12,2025-05-16,Validated,0,False
+F-0153,AUD-015,Handover between teams leaves a control gap,Critical,Process design gap,Finance,2024-11-08,2025-01-11,2025-01-11,2025-01-06,Validated,0,False
+F-0154,AUD-015,Management review evidence is missing or undated,High,Inadequate oversight,Finance,2024-11-08,2025-03-19,2025-03-19,2025-03-02,Implemented,0,False
+F-0155,AUD-015,Supplier performance not assessed against contract terms,Critical,Third-party management,Finance,2024-11-08,2024-12-27,2024-12-27,2025-02-28,Validated,0,False
+F-0156,AUD-015,Mandatory training completion below target,Medium,Training / awareness,Finance,2024-11-08,2025-03-27,2025-03-27,2025-03-21,Implemented,0,False
+F-0157,AUD-015,Mandatory training completion below target,High,Training / awareness,Finance,2024-11-08,2025-03-16,2025-03-16,2025-03-10,Implemented,0,False
+F-0158,AUD-015,Key risk indicators are not reported to the owner,High,Inadequate oversight,Finance,2024-11-08,2025-02-05,2025-02-05,2025-01-25,Validated,0,False
+F-0159,AUD-015,Spreadsheet-based calculations lack independent checks,High,Manual control / human error,Finance,2024-11-08,2025-03-18,2025-03-18,2025-05-24,Implemented,0,False
+F-0160,AUD-015,Handover between teams leaves a control gap,Low,Process design gap,IT,2024-11-08,2025-07-03,2025-10-15,,Overdue,2,False
+F-0161,AUD-015,Approval workflow does not cover all transaction types,High,Process design gap,Finance,2024-11-08,2025-04-09,2025-04-09,2025-04-04,Validated,0,False
+F-0162,AUD-015,Reconciliations contain unreviewed manual adjustments,High,Manual control / human error,Finance,2024-11-08,2025-01-30,2025-01-30,2025-01-17,Implemented,0,False
+F-0163,AUD-015,Mandatory training completion below target,Low,Training / awareness,Finance,2024-11-08,2025-04-30,2025-04-30,2025-03-05,Risk accepted,0,False
+F-0164,AUD-015,Reconciliations contain unreviewed manual adjustments,Low,Manual control / human error,Finance,2024-11-08,2025-08-29,2025-08-29,2025-08-20,Validated,0,False
+F-0165,AUD-016,Management review evidence is missing or undated,Medium,Inadequate oversight,Operations,2024-12-02,2025-06-21,2025-06-21,2025-12-12,Implemented,0,False
+F-0166,AUD-016,Handover between teams leaves a control gap,Medium,Process design gap,Legal,2024-12-02,2025-04-25,2025-04-25,2025-01-02,Risk accepted,0,False
+F-0167,AUD-016,No documented procedure for exception handling,High,Process design gap,Operations,2024-12-02,2025-04-27,2025-04-27,2025-04-25,Validated,0,False
+F-0168,AUD-016,Retention and filing rules applied inconsistently,Medium,Policy not followed,Operations,2024-12-02,2025-07-13,2025-07-13,2025-09-25,Validated,0,False
+F-0169,AUD-016,Required approvals obtained after the fact,Low,Policy not followed,Operations,2024-12-02,2025-06-28,2025-06-28,2025-05-28,Implemented,0,False
+F-0170,AUD-016,Staff unaware of updated procedures,Medium,Training / awareness,Operations,2024-12-02,2025-07-01,2025-07-01,2025-06-16,Implemented,0,False
+F-0171,AUD-016,Policy exceptions granted without documented rationale,Low,Policy not followed,Operations,2024-12-02,2025-08-11,2025-08-11,2025-07-16,Implemented,0,False
+F-0172,AUD-016,Approval workflow does not cover all transaction types,Critical,Process design gap,Operations,2024-12-02,2025-01-20,2025-01-20,2025-01-19,Validated,0,False
+F-0173,AUD-016,Periodic user access reviews not performed on schedule,Medium,System / access control,Legal,2024-12-02,2025-03-30,2025-03-30,2025-03-09,Validated,0,False
+F-0174,AUD-016,Policy exceptions granted without documented rationale,High,Policy not followed,Procurement,2024-12-02,2025-03-17,2025-03-17,2025-03-11,Validated,0,False
+F-0175,AUD-016,Required approvals obtained after the fact,High,Policy not followed,Operations,2024-12-02,2025-04-12,2025-04-12,2025-04-05,Validated,0,False
+F-0176,AUD-016,Policy exceptions granted without documented rationale,High,Policy not followed,Operations,2024-12-02,2025-05-04,2025-05-04,2025-04-23,Implemented,0,False
+F-0177,AUD-017,Reconciliations contain unreviewed manual adjustments,Medium,Manual control / human error,Compliance,2024-12-08,2025-05-15,2025-05-15,2025-04-27,Validated,0,False
+F-0178,AUD-017,Key risk indicators are not reported to the owner,Medium,Inadequate oversight,Sales,2024-12-08,2025-05-22,2025-05-22,2025-06-13,Validated,0,False
+F-0179,AUD-017,Approval workflow does not cover all transaction types,Medium,Process design gap,Compliance,2024-12-08,2025-05-06,2025-05-06,2025-05-02,Validated,0,False
+F-0180,AUD-017,Handover between teams leaves a control gap,Low,Process design gap,Compliance,2024-12-08,2025-09-05,2025-09-05,2025-08-02,Implemented,0,False
+F-0181,AUD-017,Policy exceptions granted without documented rationale,Low,Policy not followed,Compliance,2024-12-08,2025-08-16,2025-08-16,2025-07-27,Validated,0,False
+F-0182,AUD-017,Segregation of duties conflicts not monitored,Medium,Inadequate oversight,Compliance,2024-12-08,2025-06-26,2025-06-26,2025-06-04,Validated,0,False
+F-0183,AUD-017,Key risk indicators are not reported to the owner,Low,Inadequate oversight,Compliance,2024-12-08,2025-07-22,2025-07-22,2025-07-16,Validated,0,False
+F-0184,AUD-017,Staff unaware of updated procedures,Medium,Training / awareness,Sales,2024-12-08,2025-06-19,2025-06-19,2025-05-15,Validated,0,False
+F-0185,AUD-017,Due diligence refresh overdue for key suppliers,Medium,Third-party management,Compliance,2024-12-08,2025-07-17,2025-07-17,2025-06-17,Validated,0,False
+F-0186,AUD-017,Master data contains duplicates and stale records,Medium,Data quality,Compliance,2024-12-08,2025-05-25,2025-05-25,2025-05-12,Implemented,0,False
+F-0187,AUD-017,Retention and filing rules applied inconsistently,Medium,Policy not followed,Compliance,2024-12-08,2025-06-23,2025-06-23,2025-06-20,Validated,0,False
+F-0188,AUD-017,Handover between teams leaves a control gap,Medium,Process design gap,Compliance,2024-12-08,2025-06-11,2025-06-11,2025-05-06,Validated,0,False
+F-0189,AUD-017,Management review evidence is missing or undated,Medium,Inadequate oversight,Compliance,2024-12-08,2025-07-11,2025-07-11,2025-06-16,Implemented,0,False
+F-0190,AUD-017,Management review evidence is missing or undated,Critical,Inadequate oversight,Compliance,2024-12-08,2025-02-10,2025-02-10,2025-02-03,Implemented,0,False
+F-0191,AUD-018,Policy exceptions granted without documented rationale,Medium,Policy not followed,Operations,2024-12-18,2025-05-13,2025-05-13,2025-05-10,Implemented,0,False
+F-0192,AUD-018,Handover between teams leaves a control gap,High,Process design gap,Operations,2024-12-18,2025-05-04,2025-05-04,2025-07-24,Implemented,0,False
+F-0193,AUD-018,Reconciliations contain unreviewed manual adjustments,High,Manual control / human error,Operations,2024-12-18,2025-05-16,2025-05-16,2025-04-28,Validated,0,False
+F-0194,AUD-018,Approval workflow does not cover all transaction types,Low,Process design gap,Operations,2024-12-18,2025-10-22,2025-10-22,2025-10-13,Validated,0,False
+F-0195,AUD-018,Policy exceptions granted without documented rationale,Medium,Policy not followed,Legal,2024-12-18,2025-04-24,2025-04-24,2025-04-06,Validated,0,False
+F-0196,AUD-018,Staff unaware of updated procedures,Critical,Training / awareness,Legal,2024-12-18,2025-02-12,2025-02-12,2025-02-08,Validated,0,False
+F-0197,AUD-018,Mandatory training completion below target,Medium,Training / awareness,Operations,2024-12-18,2025-07-19,2025-07-19,2025-10-23,Validated,0,False
+F-0198,AUD-019,Periodic user access reviews not performed on schedule,Critical,System / access control,IT,2025-03-03,2025-06-01,2025-06-01,2025-05-29,Validated,0,False
+F-0199,AUD-019,Data entry errors not detected before posting,High,Manual control / human error,HR,2025-03-03,2025-07-07,2025-07-07,2025-09-16,Validated,0,False
+F-0200,AUD-019,Due diligence refresh overdue for key suppliers,High,Third-party management,IT,2025-03-03,2025-07-24,2025-10-11,2025-09-02,Validated,1,False
+F-0201,AUD-019,Periodic user access reviews not performed on schedule,Medium,System / access control,IT,2025-03-03,2025-09-11,2025-09-11,2025-10-27,Implemented,0,False
+F-0202,AUD-019,Privileged accounts without timely removal on role change,High,System / access control,IT,2025-03-03,2025-06-22,2025-10-16,2025-08-31,Validated,1,False
+F-0203,AUD-019,Source-to-report data lineage is undocumented,Medium,Data quality,IT,2025-03-03,2025-09-19,2025-09-19,2025-09-08,Implemented,0,False
+F-0204,AUD-019,Approval workflow does not cover all transaction types,Critical,Process design gap,IT,2025-03-03,2025-05-14,2025-05-14,2025-05-10,Validated,0,False
+F-0205,AUD-020,Spreadsheet-based calculations lack independent checks,Medium,Manual control / human error,Procurement,2025-04-01,2025-10-17,2025-10-17,2025-09-17,Implemented,0,False
+F-0206,AUD-020,Master data contains duplicates and stale records,Medium,Data quality,Procurement,2025-04-01,2025-07-29,2025-07-29,2025-07-08,Validated,0,False
+F-0207,AUD-020,Mandatory training completion below target,Medium,Training / awareness,Procurement,2025-04-01,2025-08-12,2025-08-12,2025-12-17,Validated,0,False
+F-0208,AUD-020,Management review evidence is missing or undated,Medium,Inadequate oversight,Procurement,2025-04-01,2025-11-22,2025-11-22,2025-10-20,Validated,0,False
+F-0209,AUD-020,Reconciliations contain unreviewed manual adjustments,Medium,Manual control / human error,HR,2025-04-01,2025-09-01,2025-09-01,2025-08-26,Validated,0,False
+F-0210,AUD-020,Reconciliations contain unreviewed manual adjustments,Medium,Manual control / human error,Procurement,2025-04-01,2025-07-21,2026-02-26,2026-03-15,Validated,3,False
+F-0211,AUD-020,Mandatory training completion below target,Low,Training / awareness,Procurement,2025-04-01,2025-10-20,2025-10-20,2025-10-06,Validated,0,False
+F-0212,AUD-020,Privileged accounts without timely removal on role change,High,System / access control,Procurement,2025-04-01,2025-06-29,2025-12-10,2026-09-08,Validated,2,False
+F-0213,AUD-020,Required approvals obtained after the fact,High,Policy not followed,Legal,2025-04-01,2025-07-30,2025-07-30,2025-07-15,Validated,0,False
+F-0214,AUD-020,Periodic user access reviews not performed on schedule,Critical,System / access control,Procurement,2025-04-01,2025-06-03,2025-06-03,2025-05-22,Validated,0,False
+F-0215,AUD-021,Reconciliations contain unreviewed manual adjustments,Medium,Manual control / human error,Compliance,2025-04-17,2025-11-07,2026-02-25,2026-02-22,Implemented,1,False
+F-0216,AUD-021,No documented procedure for exception handling,Medium,Process design gap,Compliance,2025-04-17,2025-08-25,2025-08-25,2025-08-22,Implemented,0,False
+F-0217,AUD-021,Periodic user access reviews not performed on schedule,High,System / access control,Legal,2025-04-17,2025-07-05,2025-10-08,2026-01-17,Validated,1,False
+F-0218,AUD-021,Supplier performance not assessed against contract terms,Low,Third-party management,Compliance,2025-04-17,2025-12-19,2025-12-19,2025-11-22,Validated,0,False
+F-0219,AUD-021,Segregation of duties conflicts not monitored,Medium,Inadequate oversight,Compliance,2025-04-17,2025-09-13,2025-09-13,2025-10-24,Validated,0,False
+F-0220,AUD-021,No documented procedure for exception handling,Medium,Process design gap,Legal,2025-04-17,2025-08-12,2025-08-12,2025-07-26,Validated,0,False
+F-0221,AUD-021,Segregation of duties conflicts not monitored,Medium,Inadequate oversight,Compliance,2025-04-17,2025-10-05,2025-10-05,2025-10-02,Validated,0,False
+F-0222,AUD-021,Reconciliations contain unreviewed manual adjustments,Low,Manual control / human error,Compliance,2025-04-17,2025-11-01,2025-11-01,2025-10-13,Validated,0,False
+F-0223,AUD-021,Supplier performance not assessed against contract terms,Medium,Third-party management,Compliance,2025-04-17,2025-11-17,2025-11-17,2025-11-12,Validated,0,False
+F-0224,AUD-021,Master data contains duplicates and stale records,Medium,Data quality,Procurement,2025-04-17,2025-11-30,2025-11-30,2025-11-23,Validated,0,False
+F-0225,AUD-021,Policy exceptions granted without documented rationale,Medium,Policy not followed,Compliance,2025-04-17,2025-10-04,2025-10-04,2025-09-11,Validated,0,False
+F-0226,AUD-021,Supplier performance not assessed against contract terms,Medium,Third-party management,Compliance,2025-04-17,2025-09-03,2025-09-03,2025-10-05,Validated,0,False
+F-0227,AUD-022,Periodic user access reviews not performed on schedule,Low,System / access control,IT,2025-05-19,2026-03-19,2026-03-19,2026-02-28,Implemented,0,False
+F-0228,AUD-022,No documented procedure for exception handling,High,Process design gap,IT,2025-05-19,2025-08-04,2025-09-26,2025-09-01,Validated,1,False
+F-0229,AUD-022,Privileged accounts without timely removal on role change,Low,System / access control,IT,2025-05-19,2026-02-06,2026-02-06,2025-07-21,Risk accepted,0,False
+F-0230,AUD-022,Staff unaware of updated procedures,Medium,Training / awareness,Legal,2025-05-19,2025-09-25,2025-09-25,2026-03-17,Validated,0,False
+F-0231,AUD-022,Policy exceptions granted without documented rationale,Medium,Policy not followed,Procurement,2025-05-19,2025-10-09,2025-10-09,2025-10-05,Validated,0,False
+F-0232,AUD-022,Spreadsheet-based calculations lack independent checks,Low,Manual control / human error,IT,2025-05-19,2026-03-13,2026-03-13,2026-02-27,Validated,0,False
+F-0233,AUD-022,Data entry errors not detected before posting,High,Manual control / human error,IT,2025-05-19,2025-09-04,2025-10-16,2025-11-28,Validated,1,False
+F-0234,AUD-022,Periodic user access reviews not performed on schedule,Low,System / access control,IT,2025-05-19,2025-11-21,2025-11-21,2025-10-24,Implemented,0,False
+F-0235,AUD-022,Privileged accounts without timely removal on role change,Low,System / access control,IT,2025-05-19,2025-10-31,2025-10-31,,Overdue,0,False
+F-0236,AUD-022,Due diligence refresh overdue for key suppliers,High,Third-party management,IT,2025-05-19,2025-09-22,2025-11-30,2025-11-12,Implemented,1,False
+F-0237,AUD-022,Handover between teams leaves a control gap,High,Process design gap,IT,2025-05-19,2025-09-16,2025-09-16,2025-08-29,Implemented,0,False
+F-0238,AUD-022,Supplier performance not assessed against contract terms,High,Third-party management,IT,2025-05-19,2025-08-23,2025-08-23,2025-08-23,Validated,0,False
+F-0239,AUD-022,Required approvals obtained after the fact,Low,Policy not followed,Operations,2025-05-19,2025-12-16,2025-12-16,,Overdue,0,False
+F-0240,AUD-022,Required approvals obtained after the fact,High,Policy not followed,IT,2025-05-19,2025-10-22,2025-10-22,2025-10-12,Validated,0,False
+F-0241,AUD-022,No documented procedure for exception handling,Low,Process design gap,IT,2025-05-19,2025-10-27,2025-10-27,,Overdue,0,False
+F-0242,AUD-023,Staff unaware of updated procedures,Medium,Training / awareness,Finance,2025-07-28,2025-12-08,2025-12-08,2025-09-12,Risk accepted,0,False
+F-0243,AUD-023,No documented procedure for exception handling,Low,Process design gap,Finance,2025-07-28,2026-04-12,2026-04-12,2026-02-27,Implemented,0,False
+F-0244,AUD-023,Retention and filing rules applied inconsistently,High,Policy not followed,Finance,2025-07-28,2025-12-11,2025-12-11,2025-12-03,Validated,0,False
+F-0245,AUD-023,Approval workflow does not cover all transaction types,Low,Process design gap,Finance,2025-07-28,2026-05-16,2026-05-16,2026-04-01,Implemented,0,False
+F-0246,AUD-023,Approval workflow does not cover all transaction types,Low,Process design gap,Finance,2025-07-28,2026-06-02,2026-06-02,2026-05-02,Implemented,0,False
+F-0247,AUD-023,Handover between teams leaves a control gap,High,Process design gap,Finance,2025-07-28,2025-10-31,2025-10-31,2025-10-18,Validated,0,False
+F-0248,AUD-023,Reconciliations contain unreviewed manual adjustments,Medium,Manual control / human error,Compliance,2025-07-28,2025-12-12,2025-12-12,2025-11-20,Implemented,0,False
+F-0249,AUD-024,Management review evidence is missing or undated,Medium,Inadequate oversight,Finance,2025-12-08,2026-06-03,2026-06-03,2026-05-22,Validated,0,True
+F-0250,AUD-024,Data entry errors not detected before posting,Low,Manual control / human error,Finance,2025-12-08,2026-09-06,2026-09-06,,Overdue,0,False
+F-0251,AUD-024,System changes moved to production without testing evidence,High,System / access control,HR,2025-12-08,2026-03-20,2026-03-20,,Overdue,0,False
+F-0252,AUD-024,Management review evidence is missing or undated,Low,Inadequate oversight,Finance,2025-12-08,2026-06-10,2026-06-10,2026-05-14,Validated,0,True
+F-0253,AUD-024,Retention and filing rules applied inconsistently,Medium,Policy not followed,Finance,2025-12-08,2026-06-21,2026-06-21,2026-06-12,Validated,0,False
+F-0254,AUD-024,System changes moved to production without testing evidence,Medium,System / access control,Finance,2025-12-08,2026-04-13,2026-04-13,2026-04-01,Validated,0,True
+F-0255,AUD-024,Handover between teams leaves a control gap,Medium,Process design gap,Finance,2025-12-08,2026-04-25,2026-04-25,2026-07-03,Validated,0,False
+F-0256,AUD-024,Management review evidence is missing or undated,High,Inadequate oversight,Finance,2025-12-08,2026-04-14,2026-04-14,2026-06-03,Validated,0,True
+F-0257,AUD-024,System changes moved to production without testing evidence,Low,System / access control,Finance,2025-12-08,2026-09-22,2026-09-22,,Overdue,0,True
+F-0258,AUD-024,Handover between teams leaves a control gap,Low,Process design gap,Finance,2025-12-08,2026-06-26,2026-06-26,2026-06-02,Validated,0,True
+F-0259,AUD-025,Master data contains duplicates and stale records,Medium,Data quality,Compliance,2025-12-16,2026-08-03,2026-08-03,2026-06-19,Implemented,0,False
+F-0260,AUD-025,Approval workflow does not cover all transaction types,Medium,Process design gap,Compliance,2025-12-16,2026-06-26,2026-06-26,2026-06-01,Implemented,0,True
+F-0261,AUD-025,Policy exceptions granted without documented rationale,Medium,Policy not followed,Compliance,2025-12-16,2026-05-11,2026-05-11,2026-05-01,Validated,0,False
+F-0262,AUD-025,Handover between teams leaves a control gap,Medium,Process design gap,Compliance,2025-12-16,2026-04-16,2026-04-16,2026-03-27,Validated,0,False
+F-0263,AUD-025,Data entry errors not detected before posting,Medium,Manual control / human error,Compliance,2025-12-16,2026-06-21,2026-06-21,2026-06-07,Validated,0,False
+F-0264,AUD-025,Approval workflow does not cover all transaction types,Medium,Process design gap,Compliance,2025-12-16,2026-05-08,2026-05-08,2026-05-02,Validated,0,True
+F-0265,AUD-025,Data entry errors not detected before posting,Critical,Manual control / human error,Compliance,2025-12-16,2026-02-10,2026-02-10,2026-02-04,Validated,0,True
+F-0266,AUD-025,Retention and filing rules applied inconsistently,Medium,Policy not followed,Compliance,2025-12-16,2026-06-18,2026-06-18,2026-06-17,Validated,0,True
+F-0267,AUD-025,Segregation of duties conflicts not monitored,High,Inadequate oversight,Compliance,2025-12-16,2026-04-02,2026-04-02,2026-03-21,Validated,0,False
+F-0268,AUD-025,Staff unaware of updated procedures,High,Training / awareness,Compliance,2025-12-16,2026-04-18,2026-04-18,2026-03-26,Validated,0,False
+F-0269,AUD-025,Mandatory training completion below target,Medium,Training / awareness,Compliance,2025-12-16,2026-05-20,2026-05-20,2026-05-05,Validated,0,False
+F-0270,AUD-025,Retention and filing rules applied inconsistently,Medium,Policy not followed,Finance,2025-12-16,2026-07-13,2026-07-13,2026-07-04,Implemented,0,True
+F-0271,AUD-025,System changes moved to production without testing evidence,High,System / access control,Compliance,2025-12-16,2026-03-26,2026-03-26,2026-03-25,Validated,0,False
+F-0272,AUD-025,Source-to-report data lineage is undocumented,High,Data quality,Compliance,2025-12-16,2026-03-01,2026-03-01,2026-02-22,Validated,0,True
+F-0273,AUD-026,Mandatory training completion below target,Low,Training / awareness,Procurement,2025-12-29,2026-09-16,2026-09-16,2026-09-06,Implemented,0,True
+F-0274,AUD-026,Reconciliations contain unreviewed manual adjustments,Medium,Manual control / human error,Procurement,2025-12-29,2026-06-08,2026-11-12,,Open,2,True
+F-0275,AUD-026,Management review evidence is missing or undated,Medium,Inadequate oversight,Procurement,2025-12-29,2026-05-02,2026-08-03,2026-05-29,Validated,1,True
+F-0276,AUD-026,System changes moved to production without testing evidence,Medium,System / access control,Procurement,2025-12-29,2026-05-25,2026-12-14,,In progress,2,False
+F-0277,AUD-026,Management review evidence is missing or undated,Medium,Inadequate oversight,Procurement,2025-12-29,2026-07-08,2026-07-08,,Overdue,0,True
+F-0278,AUD-026,Reconciliations contain unreviewed manual adjustments,High,Manual control / human error,HR,2025-12-29,2026-04-11,2026-04-11,2026-04-07,Validated,0,True
+F-0279,AUD-026,Staff unaware of updated procedures,High,Training / awareness,Procurement,2025-12-29,2026-04-09,2026-07-11,2026-09-01,Validated,1,False
+F-0280,AUD-026,Management review evidence is missing or undated,High,Inadequate oversight,Procurement,2025-12-29,2026-04-21,2026-04-21,2026-04-04,Risk accepted,0,False
+F-0281,AUD-026,Approval workflow does not cover all transaction types,Critical,Process design gap,Procurement,2025-12-29,2026-02-15,2026-02-15,2026-02-12,Validated,0,False
+F-0282,AUD-026,Staff unaware of updated procedures,High,Training / awareness,Procurement,2025-12-29,2026-05-11,2026-12-20,,In progress,2,False
+F-0283,AUD-026,Data entry errors not detected before posting,Medium,Manual control / human error,Procurement,2025-12-29,2026-07-11,2026-07-11,2026-04-10,Risk accepted,0,False
+F-0284,AUD-026,Reconciliations contain unreviewed manual adjustments,Medium,Manual control / human error,Legal,2025-12-29,2026-05-17,2026-05-17,2026-05-02,Validated,0,False
+F-0285,AUD-026,Required approvals obtained after the fact,Critical,Policy not followed,Legal,2025-12-29,2026-02-25,2026-05-28,2026-05-10,Implemented,1,True
+F-0286,AUD-026,Periodic user access reviews not performed on schedule,High,System / access control,Procurement,2025-12-29,2026-05-19,2026-05-19,,Overdue,0,True
+F-0287,AUD-026,Periodic user access reviews not performed on schedule,High,System / access control,Procurement,2025-12-29,2026-04-05,2026-04-05,2026-03-21,Implemented,0,True
+F-0288,AUD-027,Handover between teams leaves a control gap,Low,Process design gap,Compliance,2026-01-17,2026-07-24,2026-07-24,2026-07-17,Validated,0,False
+F-0289,AUD-027,Key risk indicators are not reported to the owner,Low,Inadequate oversight,Finance,2026-01-17,2026-09-08,2026-09-08,2026-08-10,Implemented,0,False
+F-0290,AUD-027,Policy exceptions granted without documented rationale,Medium,Policy not followed,Compliance,2026-01-17,2026-09-10,2026-09-10,2026-09-04,Implemented,0,False
+F-0291,AUD-027,Mandatory training completion below target,Medium,Training / awareness,IT,2026-01-17,2026-06-05,2027-01-04,,Open,2,False
+F-0292,AUD-027,Mandatory training completion below target,Low,Training / awareness,Compliance,2026-01-17,2026-08-13,2026-08-13,2026-07-30,Validated,0,False
+F-0293,AUD-027,No documented procedure for exception handling,Critical,Process design gap,Compliance,2026-01-17,2026-04-10,2026-04-10,2026-04-08,Validated,0,False
+F-0294,AUD-027,Reconciliations contain unreviewed manual adjustments,High,Manual control / human error,Compliance,2026-01-17,2026-05-24,2026-05-24,2026-05-21,Implemented,0,True
+F-0295,AUD-027,No documented procedure for exception handling,High,Process design gap,Legal,2026-01-17,2026-06-19,2026-06-19,2026-08-20,Validated,0,True
+F-0296,AUD-027,Approval workflow does not cover all transaction types,Low,Process design gap,Compliance,2026-01-17,2026-12-01,2026-12-01,,Open,0,False
+F-0297,AUD-027,Master data contains duplicates and stale records,Low,Data quality,Procurement,2026-01-17,2026-09-08,2026-09-08,,Overdue,0,True
+F-0298,AUD-027,Master data contains duplicates and stale records,Medium,Data quality,Compliance,2026-01-17,2026-06-06,2026-06-06,2026-05-16,Implemented,0,False
+F-0299,AUD-027,Master data contains duplicates and stale records,Medium,Data quality,Procurement,2026-01-17,2026-09-14,2026-09-14,2026-08-10,Implemented,0,True
+F-0300,AUD-027,Key risk indicators are not reported to the owner,Medium,Inadequate oversight,Compliance,2026-01-17,2026-08-12,2026-08-12,,Overdue,0,False
+F-0301,AUD-028,No documented procedure for exception handling,Low,Process design gap,Procurement,2026-01-18,2026-10-28,2026-10-28,,Open,0,False
+F-0302,AUD-028,Privileged accounts without timely removal on role change,Medium,System / access control,Procurement,2026-01-18,2026-07-26,2026-07-26,,Overdue,0,False
+F-0303,AUD-028,Reconciliations contain unreviewed manual adjustments,Low,Manual control / human error,Procurement,2026-01-18,2026-11-23,2026-11-23,,Open,0,False
+F-0304,AUD-028,Spreadsheet-based calculations lack independent checks,Low,Manual control / human error,Compliance,2026-01-18,2026-09-26,2026-09-26,2026-08-26,Implemented,0,False
+F-0305,AUD-028,Policy exceptions granted without documented rationale,Low,Policy not followed,Procurement,2026-01-18,2026-11-18,2026-11-18,,Open,0,False
+F-0306,AUD-028,Staff unaware of updated procedures,Medium,Training / awareness,Procurement,2026-01-18,2026-07-25,2026-07-25,2026-06-28,Validated,0,False
+F-0307,AUD-028,Key risk indicators are not reported to the owner,Medium,Inadequate oversight,Sales,2026-01-18,2026-08-05,2026-08-05,,Overdue,0,False
+F-0308,AUD-028,Approval workflow does not cover all transaction types,Low,Process design gap,Procurement,2026-01-18,2026-11-10,2026-11-10,,In progress,0,False
+F-0309,AUD-028,Key risk indicators are not reported to the owner,Low,Inadequate oversight,Procurement,2026-01-18,2026-06-25,2026-06-25,,Overdue,0,False
+F-0310,AUD-029,Policy exceptions granted without documented rationale,Medium,Policy not followed,Operations,2026-03-14,2026-09-19,2026-09-19,,Overdue,0,True
+F-0311,AUD-029,Required approvals obtained after the fact,Critical,Policy not followed,HR,2026-03-14,2026-05-30,2026-05-30,2026-05-24,Validated,0,False
+F-0312,AUD-029,Spreadsheet-based calculations lack independent checks,Medium,Manual control / human error,Operations,2026-03-14,2026-08-29,2026-12-01,2026-09-27,Implemented,1,False
+F-0313,AUD-029,Segregation of duties conflicts not monitored,High,Inadequate oversight,Operations,2026-03-14,2026-08-21,2026-11-20,,Open,1,False
+F-0314,AUD-029,Required approvals obtained after the fact,High,Policy not followed,Legal,2026-03-14,2026-07-03,2026-07-03,2026-06-14,Implemented,0,False
+F-0315,AUD-029,Periodic user access reviews not performed on schedule,Medium,System / access control,Operations,2026-03-14,2026-09-15,2026-09-15,,Overdue,0,False
+F-0316,AUD-029,Spreadsheet-based calculations lack independent checks,Medium,Manual control / human error,Operations,2026-03-14,2026-08-15,2026-08-15,2026-08-15,Validated,0,True
+F-0317,AUD-029,Management review evidence is missing or undated,Low,Inadequate oversight,Sales,2026-03-14,2026-10-31,2026-10-31,,In progress,0,False
+F-0318,AUD-030,Periodic user access reviews not performed on schedule,Low,System / access control,Compliance,2026-03-23,2026-12-09,2026-12-09,,In progress,0,False
+F-0319,AUD-030,Handover between teams leaves a control gap,Medium,Process design gap,Procurement,2026-03-23,2026-07-29,2026-07-29,2026-07-15,Implemented,0,False
+F-0320,AUD-030,Due diligence refresh overdue for key suppliers,High,Third-party management,Finance,2026-03-23,2026-06-18,2026-06-18,2026-06-15,Validated,0,False
+F-0321,AUD-030,Management review evidence is missing or undated,Medium,Inadequate oversight,IT,2026-03-23,2026-07-24,2026-07-24,2026-07-08,Validated,0,False
+F-0322,AUD-030,No documented procedure for exception handling,Medium,Process design gap,IT,2026-03-23,2026-07-27,2026-07-27,,Overdue,0,False
+F-0323,AUD-030,Approval workflow does not cover all transaction types,Critical,Process design gap,IT,2026-03-23,2026-05-09,2026-08-28,2026-07-11,Validated,1,False
+F-0324,AUD-030,Data entry errors not detected before posting,Low,Manual control / human error,HR,2026-03-23,2027-01-02,2027-01-02,,Open,0,True
+F-0325,AUD-030,Required approvals obtained after the fact,Low,Policy not followed,IT,2026-03-23,2027-01-25,2027-01-25,,In progress,0,False
+F-0326,AUD-030,Handover between teams leaves a control gap,Medium,Process design gap,IT,2026-03-23,2026-11-05,2026-11-05,,In progress,0,False
+F-0327,AUD-030,Due diligence refresh overdue for key suppliers,High,Third-party management,IT,2026-03-23,2026-07-14,2026-07-14,2026-07-03,Validated,0,True
+F-0328,AUD-030,Periodic user access reviews not performed on schedule,High,System / access control,IT,2026-03-23,2026-08-03,2026-08-03,,Overdue,0,True
+F-0329,AUD-031,Handover between teams leaves a control gap,Low,Process design gap,Compliance,2026-05-11,2027-01-29,2027-01-29,,In progress,0,False
+F-0330,AUD-031,Handover between teams leaves a control gap,High,Process design gap,Finance,2026-05-11,2026-09-23,2026-09-23,,Overdue,0,False
+F-0331,AUD-031,Reconciliations contain unreviewed manual adjustments,Medium,Manual control / human error,Compliance,2026-05-11,2026-10-29,2026-10-29,,In progress,0,True
+F-0332,AUD-031,Approval workflow does not cover all transaction types,Medium,Process design gap,Finance,2026-05-11,2026-10-09,2026-10-09,2026-09-19,Implemented,0,True
+F-0333,AUD-031,Retention and filing rules applied inconsistently,Low,Policy not followed,Finance,2026-05-11,2026-10-11,2026-10-11,,In progress,0,True
+F-0334,AUD-031,Source-to-report data lineage is undocumented,High,Data quality,Finance,2026-05-11,2026-08-25,2026-08-25,2026-09-07,Implemented,0,False
+F-0335,AUD-031,Staff unaware of updated procedures,Medium,Training / awareness,Finance,2026-05-11,2026-09-16,2026-09-16,2026-09-14,Implemented,0,True
+F-0336,AUD-031,Periodic user access reviews not performed on schedule,High,System / access control,Finance,2026-05-11,2026-08-26,2026-08-26,2026-08-12,Implemented,0,False
+F-0337,AUD-031,Spreadsheet-based calculations lack independent checks,Medium,Manual control / human error,Finance,2026-05-11,2026-10-25,2026-10-25,,In progress,0,False
+F-0338,AUD-032,Privileged accounts without timely removal on role change,Low,System / access control,IT,2026-07-20,2027-02-01,2027-02-01,,In progress,0,False
+F-0339,AUD-032,Policy exceptions granted without documented rationale,High,Policy not followed,Procurement,2026-07-20,2026-10-25,2026-10-25,,In progress,0,True
+F-0340,AUD-032,Reconciliations contain unreviewed manual adjustments,Low,Manual control / human error,Sales,2026-07-20,2027-03-25,2027-03-25,,Open,0,False
+F-0341,AUD-032,Handover between teams leaves a control gap,Medium,Process design gap,Finance,2026-07-20,2027-02-27,2027-02-27,,In progress,0,True
+F-0342,AUD-032,Approval workflow does not cover all transaction types,Medium,Process design gap,Sales,2026-07-20,2026-11-22,2026-11-22,,In progress,0,False
+F-0343,AUD-032,Key risk indicators are not reported to the owner,High,Inadequate oversight,Sales,2026-07-20,2026-12-14,2026-12-14,,In progress,0,False
+F-0344,AUD-032,Reconciliations contain unreviewed manual adjustments,Low,Manual control / human error,Sales,2026-07-20,2027-04-15,2027-04-15,,Open,0,False
+F-0345,AUD-032,Policy exceptions granted without documented rationale,High,Policy not followed,Procurement,2026-07-20,2026-12-02,2026-12-02,,Open,0,True
+F-0346,AUD-033,Periodic user access reviews not performed on schedule,Low,System / access control,Sales,2026-07-30,2027-02-02,2027-02-02,,Open,0,False
+F-0347,AUD-033,System changes moved to production without testing evidence,Medium,System / access control,Sales,2026-07-30,2027-01-29,2027-01-29,,In progress,0,True
+F-0348,AUD-033,No documented procedure for exception handling,Critical,Process design gap,Compliance,2026-07-30,2026-09-27,2026-09-27,2026-09-23,Implemented,0,False
+F-0349,AUD-033,Spreadsheet-based calculations lack independent checks,High,Manual control / human error,Sales,2026-07-30,2026-12-10,2026-12-10,,In progress,0,True
+F-0350,AUD-033,Staff unaware of updated procedures,High,Training / awareness,Sales,2026-07-30,2026-11-15,2026-11-15,,In progress,0,False
+F-0351,AUD-033,Master data contains duplicates and stale records,High,Data quality,Sales,2026-07-30,2026-12-18,2026-12-18,,In progress,0,False
+F-0352,AUD-033,Periodic user access reviews not performed on schedule,Medium,System / access control,Sales,2026-07-30,2027-01-13,2027-01-13,,Open,0,True
+F-0353,AUD-033,Staff unaware of updated procedures,High,Training / awareness,Sales,2026-07-30,2026-11-30,2026-11-30,,In progress,0,True
+F-0354,AUD-033,Policy exceptions granted without documented rationale,Medium,Policy not followed,HR,2026-07-30,2027-01-02,2027-01-02,,Open,0,False
+F-0355,AUD-033,Spreadsheet-based calculations lack independent checks,Medium,Manual control / human error,Sales,2026-07-30,2026-11-19,2026-11-19,,In progress,0,False
+F-0356,AUD-033,Master data contains duplicates and stale records,Low,Data quality,Sales,2026-07-30,2027-02-18,2027-02-18,,In progress,0,False
+F-0357,AUD-033,Data entry errors not detected before posting,Medium,Manual control / human error,Compliance,2026-07-30,2027-01-11,2027-01-11,,In progress,0,True
+F-0358,AUD-033,Key risk indicators are not reported to the owner,Medium,Inadequate oversight,Sales,2026-07-30,2027-02-16,2027-02-16,,In progress,0,False
+F-0359,AUD-033,Data entry errors not detected before posting,Medium,Manual control / human error,Sales,2026-07-30,2027-01-19,2027-01-19,,Open,0,False
+F-0360,AUD-033,Handover between teams leaves a control gap,High,Process design gap,Finance,2026-07-30,2026-12-23,2026-12-23,,In progress,0,False
+F-0361,AUD-034,System changes moved to production without testing evidence,Low,System / access control,HR,2026-08-05,2027-01-23,2027-01-23,,Open,0,True
+F-0362,AUD-034,System changes moved to production without testing evidence,High,System / access control,HR,2026-08-05,2027-01-06,2027-01-06,,In progress,0,True
+F-0363,AUD-034,Reconciliations contain unreviewed manual adjustments,Low,Manual control / human error,HR,2026-08-05,2027-03-01,2027-03-01,,In progress,0,True
+F-0364,AUD-034,Periodic user access reviews not performed on schedule,Medium,System / access control,HR,2026-08-05,2027-03-23,2027-03-23,,In progress,0,False
+F-0365,AUD-034,Spreadsheet-based calculations lack independent checks,High,Manual control / human error,HR,2026-08-05,2026-11-30,2026-11-30,,In progress,0,False
+F-0366,AUD-034,Management review evidence is missing or undated,Medium,Inadequate oversight,HR,2026-08-05,2027-01-14,2027-01-14,,Open,0,False
+F-0367,AUD-034,Handover between teams leaves a control gap,Low,Process design gap,Finance,2026-08-05,2027-03-21,2027-03-21,,In progress,0,True
+F-0368,AUD-034,Required approvals obtained after the fact,High,Policy not followed,HR,2026-08-05,2026-11-13,2026-11-13,,Open,0,False
+F-0369,AUD-034,Handover between teams leaves a control gap,High,Process design gap,Finance,2026-08-05,2026-11-16,2026-11-16,,Open,0,True
+F-0370,AUD-034,Approval workflow does not cover all transaction types,Medium,Process design gap,HR,2026-08-05,2026-12-27,2026-12-27,2026-11-04,Risk accepted,0,True
+F-0371,AUD-035,Privileged accounts without timely removal on role change,High,System / access control,Finance,2026-08-05,2026-10-29,2026-10-29,,In progress,0,False
+F-0372,AUD-035,Spreadsheet-based calculations lack independent checks,Medium,Manual control / human error,Finance,2026-08-05,2027-03-07,2027-03-07,,Open,0,True
+F-0373,AUD-035,Supplier performance not assessed against contract terms,Low,Third-party management,Finance,2026-08-05,2027-04-10,2027-04-10,,Open,0,True
+F-0374,AUD-035,Master data contains duplicates and stale records,High,Data quality,Finance,2026-08-05,2026-12-23,2026-12-23,,Open,0,False
+F-0375,AUD-035,Reconciliations contain unreviewed manual adjustments,Low,Manual control / human error,Finance,2026-08-05,2027-03-30,2027-03-30,,Open,0,True
+F-0376,AUD-035,Master data contains duplicates and stale records,Critical,Data quality,Sales,2026-08-05,2026-10-09,2026-10-09,,Open,0,True
+F-0377,AUD-035,Management review evidence is missing or undated,Medium,Inadequate oversight,Finance,2026-08-05,2026-11-26,2026-11-26,,Open,0,True
+F-0378,AUD-036,Approval workflow does not cover all transaction types,Low,Process design gap,Legal,2026-08-10,2027-03-26,2027-03-26,,In progress,0,True
+F-0379,AUD-036,Handover between teams leaves a control gap,Low,Process design gap,Sales,2026-08-10,2027-05-25,2027-05-25,,Open,0,False
+F-0380,AUD-036,Periodic user access reviews not performed on schedule,Medium,System / access control,Legal,2026-08-10,2027-02-28,2027-02-28,,Open,0,False
+F-0381,AUD-036,Policy exceptions granted without documented rationale,Medium,Policy not followed,Legal,2026-08-10,2027-01-17,2027-01-17,,Open,0,False
+F-0382,AUD-036,Management review evidence is missing or undated,Medium,Inadequate oversight,HR,2026-08-10,2027-02-15,2027-02-15,,In progress,0,True
+F-0383,AUD-036,Management review evidence is missing or undated,Critical,Inadequate oversight,HR,2026-08-10,2026-10-28,2026-10-28,,Open,0,True
+F-0384,AUD-036,Required approvals obtained after the fact,Medium,Policy not followed,Legal,2026-08-10,2027-03-17,2027-03-17,,Open,0,False
+F-0385,AUD-036,Approval workflow does not cover all transaction types,High,Process design gap,Legal,2026-08-10,2026-11-13,2026-11-13,,Open,0,True
+F-0386,AUD-036,Segregation of duties conflicts not monitored,Medium,Inadequate oversight,Legal,2026-08-10,2027-03-04,2027-03-04,,In progress,0,False
